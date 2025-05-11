@@ -1,0 +1,109 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.calculator {
+    background: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border: 2px solid #ff9500; 
+}
+
+.inputs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+#input1, #input2 {
+    width: 48%;
+    height: 55px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 5px 10px;
+    border: 1px solid #15904204;
+    border-radius: 10px;
+    background: #d3c2c28f; 
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.output-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#output {
+    width: 80%;
+    height: 55px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 5px 10px;
+    border: 1px solid #15904204;
+    border-radius: 10px;
+    background: #d3c2c28f;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#ac {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    background: #d3c2c28f;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#ac:hover {
+    background: #c4dad2af;
+    transform: scale(1.0);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.btn {
+    height: 55px;
+    font-size: 1.8rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.operation {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff9500;
+    color: white;
+}
+
+.equals {
+    display: none;
+}
+
+.btn:hover {
+    background: #f2ad2e;
+    transform: scale(1.0);
+}
+
+
